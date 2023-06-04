@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>KMT</title>
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .nav-item{
+            margin-bottom: 5px;
+            border-width: 0;
+        }
+        .nav-item :hover{
+            border-width: 2px;
+            border-color: aliceblue;
+        }
+
+        .links{
+            text-decoration: none;
+            color:gray;
+        }
+
+        .links:hover{
+            color: white;
+        }
+    </style>
+</head>
+<body data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" aria-label="Tenth navbar example" id="navbar-spy">
+        <div class="container-fluid">
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08" style="">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Works">Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container col-xxl-8 px-4 py-5" id="Home">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="programmer.png" class="d-block mx-lg-auto img-fluid" alt="image" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi! I am Kaustubh</h1>
+            <p class="lead">I am into <span class="text-primary" style="font-weight: bold; font-size: 32px;">Development</span></p>
+            <p class="lead">Join me in this huge world of development.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="#About"><button type="button" href="#About" class="btn btn-primary btn-lg px-4 me-md-2">About Me</button></a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-spy"  data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
+    <div class="my-5" id="About">
+        <div class="p-5 text-center bg-body-tertiary">
+          <div class="container py-5">
+            <h1 class="text-body-emphasis">Hey there!</h1>
+            <p class="col-lg-8 mx-auto lead">
+              I am a Mathematics and Computing fresher at Indian Institute of Technology, BHU. Game Development and Web Development are the areas I like working in.
+            </p>
+          </div>
+        </div>
+    </div>
+
+    <h1 class="text-center display-4 fw-bold lh-1 text-body-emphasis mb-3">You want to know what I know right?</h1>
+    <div class="row row-cols-md-2 row-cols-1 p-5 g-4", id="Skills">
+        <div class="col">
+            <div class="card" style="width: 100%">
+                <div class="card-header text-body-emphasis">
+                Programming Languages
+                </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">C</li>
+                <li class="list-group-item">C++</li>
+                <li class="list-group-item">Java</li>
+                <li class="list-group-item">Python</li>
+                <li class="list-group-item">C#</li>
+                </ul>
+            </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 100%;">
+            <div class="card-header text-body-emphasis">
+            Development Domains
+            </div>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">Web Development</li>
+            <li class="list-group-item">Flask Framework</li>
+            <li class="list-group-item">Unity Game Engine</li>
+            <li class="list-group-item">Custom Tkinter App Development</li>
+            </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 100%;">
+            <div class="card-header text-body-emphasis">
+            Data Science and ML Domains
+            </div>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">Pandas and Numpy</li>
+            <li class="list-group-item">Matplotlib and Plotly Express</li>
+            <li class="list-group-item">Beginner Level Regression Models</li>
+            </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 100%;">
+            <div class="card-header text-body-emphasis">
+            Miscellaneous
+            </div>
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item">Web Scraping</li>
+            <li class="list-group-item">API Development through Flask</li>
+            <li class="list-group-item">Multivariable Calculus</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+   
+    <div id="Works" class="carousel slide">
+        <h1 class="text-center display-4 fw-bold lh-1 text-body-emphasis mb-3">What have I done till now?</h1>
+        <div class="carousel-inner p-5">
+          <div class="carousel-item active">
+            <img src="./weather-app.png" class="d-block w-100" alt="...">
+            <h3 class="text-center">A Weather App I made in Tkinter</h3>
+          </div>
+          <div class="carousel-item">
+            <img src="./lekhana.png" class="d-block w-100" alt="...">
+            <h3 class="text-center">A Book Search/Recommend Web Application made using Flask</h3>
+          </div>
+          <div class="carousel-item">
+            <img src="./game.png" class="d-block w-100" alt="...">
+            <h3 class="text-center">A Game I am currently making in Unity</h3>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Works" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Works" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="Contact">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Want to know more about me? Or just a little chit-chat!</h1>
+            <p class="col-lg-10 fs-4">Contact Me by filling out your details in this form and mail me! It's that simple, Dattebayo!</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" action="mailto:tripathikmt20@gmail.com">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingPassword" placeholder="Type your Message for me">
+                <label for="floatingPassword">Type your Message for me</label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Send Mail</button>
+              <hr class="my-4">
+            </form>
+          </div>
+        </div>
+      </div>
+
+</div>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 KMT</span>
+        </div>
+        <a class="links" href="https://www.linkedin.com/in/kaustubh-mani-tripathi-9b465b258/">LinkedIn<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg></a>
+        <a class="links" href="https://github.com/kmtGryffindor20">Github<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg></a>
+        <br>
+        <br>
+      </footer>
+      
+</body>
+</html>
